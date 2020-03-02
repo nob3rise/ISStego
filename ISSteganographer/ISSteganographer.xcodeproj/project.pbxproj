@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C8A0F7FF240D661B00850B76 /* ISStegoEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A0F7FC240D661B00850B76 /* ISStegoEncoder.h */; };
-		C8A0F800240D661B00850B76 /* ISSteganographer.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A0F7FD240D661B00850B76 /* ISSteganographer.h */; };
-		C8A0F801240D661B00850B76 /* ISStegoDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A0F7FE240D661B00850B76 /* ISStegoDecoder.h */; };
-		C8A0F805240D662F00850B76 /* ISStegoUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A0F802240D662F00850B76 /* ISStegoUtilities.h */; };
-		C8A0F806240D662F00850B76 /* ISPixelUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A0F803240D662F00850B76 /* ISPixelUtilities.h */; };
-		C8A0F807240D662F00850B76 /* ISStegoDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A0F804240D662F00850B76 /* ISStegoDefaults.h */; };
+		C8A0F7FF240D661B00850B76 /* ISStegoEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A0F7FC240D661B00850B76 /* ISStegoEncoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8A0F800240D661B00850B76 /* ISSteganographer.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A0F7FD240D661B00850B76 /* ISSteganographer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8A0F801240D661B00850B76 /* ISStegoDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A0F7FE240D661B00850B76 /* ISStegoDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8A0F805240D662F00850B76 /* ISStegoUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A0F802240D662F00850B76 /* ISStegoUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8A0F806240D662F00850B76 /* ISPixelUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A0F803240D662F00850B76 /* ISPixelUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8A0F807240D662F00850B76 /* ISStegoDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A0F804240D662F00850B76 /* ISStegoDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8A0F80C240D66CD00850B76 /* ISStegoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A0F809240D66CD00850B76 /* ISStegoEncoder.m */; };
 		C8A0F80D240D66CD00850B76 /* ISStegoDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A0F80A240D66CD00850B76 /* ISStegoDecoder.m */; };
 		C8A0F80E240D66CD00850B76 /* ISSteganographer.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A0F80B240D66CD00850B76 /* ISSteganographer.m */; };
