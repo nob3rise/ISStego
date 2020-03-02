@@ -55,6 +55,9 @@
       location = "group:Examples/ISStego OS X Example/ISStego OS X Example.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:ISSteganographer/ISSteganographer.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Tests/Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
