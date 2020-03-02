@@ -96,6 +96,10 @@
     
     double ratio = (size - pixelPosition) / pixelsToHide;
     
+    if (ratio == 0 || ratio >= size) {
+        return;
+    }
+    
     int salt = ratio;
     
     while (pixelPosition <= size) {
