@@ -105,10 +105,6 @@
     while (pixelPosition <= size) {
         [self getDataWithPixel:pixels[pixelPosition]];
         pixelPosition += salt;
-        
-        if (Contains(self.data, DATA_SUFFIX)) {
-            break;
-        }
     }
 }
 
@@ -153,7 +149,7 @@
     self.bitsCharacter = 0;
     
     if (self.data) {
-        self.data = [NSString stringWithFormat:@"%@%@", self.data, character];
+        self.data = [self.data stringByAppendingString:character];
     } else {
         self.data = character;
     }
